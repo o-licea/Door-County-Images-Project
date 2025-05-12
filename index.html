@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Door County Images</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fdf6f0;
+    }
+    nav {
+      background-color: #367f85;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      color: white;
+    }
+    nav .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    header {
+      background: #659ca0;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .image {
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .image img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    .image h3 {
+      margin: 10px 0 5px;
+    }
+    footer {
+      background: #659ca0;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">Door County Images</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="cart.html">Cart</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Welcome to Door County Images</h1>
+    <p>High-quality printouts capturing the beauty of Ellison Bay</p>
+  </header>
+
+  <section class="gallery">
+    <div class="image">
+      <img src="images/sunset.jpg" alt="Ellison Bay at Sunset">
+      <h3>Ellison Bay at Sunset</h3>
+      <p><strong>$19.95</strong></p>
+      <p>Size: 11x14"</p>
+    </div>
+    <div class="image">
+      <img src="images/summer.jpg" alt="Ellison Bay at Summer">
+      <h3>Ellison Bay at Summer</h3>
+      <p><strong>$19.95</strong></p>
+      <p>Size: 11x14"</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Door County Images. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
